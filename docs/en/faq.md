@@ -12,7 +12,7 @@ APatch is a root solution similar to Magisk or KernelSU, but APatch offers even 
 
 - KernelSU require source. Only boot.img for APatch is enough.
 
-## APatch vs Magisk, KerenlSU
+## APatch vs Magisk, KernelSU
 
 - Optionally don't modify SELinux. Root in android app context, no libsu and IPC needed
 - **Kernel Patch Module** provided
@@ -47,4 +47,3 @@ SuperCall can only be successfully invoked when the SuperKey is correct; if the 
   This is very convenient.
 - In addition, APatch directly utilizes magiskpolicy to provide additional SELinux support.  
   However, only this will be detected as Magisk. Anyone interested can try to bypass it, the issue is already quite clear.
-  
